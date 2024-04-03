@@ -54,7 +54,8 @@ Support	      :	    themearray@gmail.com
 }
 .socials-icon{
   width: 100px; 
-  height: 100px;
+  height: 53px;
+  object-fit: contain;
 }
 /*
 1. Use a consistent sensible line-height in all browsers.
