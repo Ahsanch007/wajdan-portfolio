@@ -66,6 +66,23 @@ Support	      :	    themearray@gmail.com
 6. Use the user's configured `sans` font-variation-settings by default.
 */
 
+
+.desktopn-menu{
+  display: block;
+}
+.mobile-menu{
+  display: none;
+}
+
+@media(max-width:800px){
+  .desktopn-menu{
+    display: none !important;
+  }
+  .mobile-menu{
+    display: block;
+  }
+}
+
 html {
   line-height: 1.5;
   /* 1 */
